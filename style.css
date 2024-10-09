@@ -5,7 +5,18 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+.description-section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra el texto */
+}
 
+.description-section h2 {
+    color: #333;
+}
 header {
     background-color: #03fc24;
     color: #fff;
