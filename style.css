@@ -112,3 +112,30 @@ main {
 .contact-btn:hover {
     background-color: #218838; /* Color verde más oscuro */
 }
+/* ... (Estilos anteriores) ... */
+
+footer {
+    background-color: #03fc24;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.social-media a {
+    transition: transform 0.2s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
