@@ -5,18 +5,20 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 .description-section {
     background-color: #fff;
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centra el texto */
+    text-align: center; 
 }
 
 .description-section h2 {
     color: #333;
 }
+
 header {
     background-color: #03fc24;
     color: #fff;
@@ -57,7 +59,7 @@ main {
 }
 
 .reservar-btn {
-    background-color: #ff6347; /* Color naranja */
+    background-color: #ff6347; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -68,8 +70,8 @@ main {
 }
 
 .reservar-btn:hover {
-    background-color: #ff4500; /* Color naranja más oscuro al pasar el mouse */
-    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+    background-color: #ff4500; 
+    transform: scale(1.05); 
 }
 
 .contact-section {
@@ -99,7 +101,7 @@ main {
 }
 
 .contact-btn {
-    background-color: #28a745; /* Color verde */
+    background-color: #28a745;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -110,9 +112,8 @@ main {
 }
 
 .contact-btn:hover {
-    background-color: #218838; /* Color verde más oscuro */
-}
-/* ... (Estilos anteriores) ... */
+    background-color: #218838; 
+} /* <- Aquí faltaba la llave de cierre */
 
 footer {
     background-color: #03fc24;
@@ -127,8 +128,8 @@ footer {
 }
 
 .social-media img {
-    width: 30px;
-    height: 30px;
+    width: 20px; /* Reducido a 20px */
+    height: 20px; 
     margin: 0 10px;
 }
 
